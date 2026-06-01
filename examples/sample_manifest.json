@@ -1,0 +1,49 @@
+{
+  "schema": "jp-geo-game-qa/manifest-v1",
+  "chunks": [
+    {
+      "id": "sapporo_demo_0_0",
+      "lods": [0, 1, 2],
+      "features": [
+        {
+          "id": "toyohira_river",
+          "kind": "waterbody",
+          "width_m": 85,
+          "internal_centerlines": 0
+        },
+        {
+          "id": "sosei_bridge_001",
+          "kind": "crossing",
+          "transport": "road",
+          "water": "sosei_river",
+          "status": "bridge",
+          "vertical_clearance_m": 4.2,
+          "cuts_water": false
+        },
+        {
+          "id": "urban_primary_001",
+          "kind": "road",
+          "class": "primary",
+          "rendered": true,
+          "has_markings": true
+        },
+        {
+          "id": "namboku_subway_span",
+          "kind": "rail",
+          "mode": "subway",
+          "underground": true,
+          "renders_on_surface": false
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "game_view_checkpoints": [
+      "station_integration",
+      "broad_river",
+      "road_water_bridge",
+      "underground_rail",
+      "distant_lod"
+    ]
+  }
+}

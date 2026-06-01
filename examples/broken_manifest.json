@@ -1,0 +1,43 @@
+{
+  "schema": "jp-geo-game-qa/manifest-v1",
+  "chunks": [
+    {
+      "id": "broken_0_0",
+      "lods": [0, 2],
+      "features": [
+        {
+          "id": "broad_river_bad",
+          "kind": "waterbody",
+          "width_m": 90,
+          "internal_centerlines": 3
+        },
+        {
+          "id": "road_cutting_water",
+          "kind": "crossing",
+          "transport": "road",
+          "water": "broad_river_bad",
+          "status": "unresolved",
+          "vertical_clearance_m": 0.0,
+          "cuts_water": true
+        },
+        {
+          "id": "city_road_no_markings",
+          "kind": "road",
+          "class": "primary",
+          "rendered": true,
+          "has_markings": false
+        },
+        {
+          "id": "subway_surface_leak",
+          "kind": "rail",
+          "mode": "subway",
+          "underground": true,
+          "renders_on_surface": true
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "game_view_checkpoints": ["broad_river"]
+  }
+}
