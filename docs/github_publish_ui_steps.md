@@ -10,13 +10,13 @@ Use these steps if GitHub CLI is not installed.
 6. Copy the repository URL, for example:
 
 ```text
-https://github.com/<your-github-user-or-org>/japan-geo-game-qa-toolkit.git
+https://github.com/eitag0128/japan-geo-game-qa-toolkit.git
 ```
 
 7. From this folder, run:
 
 ```powershell
-.\scripts\publish_after_repo_created.ps1 -RepositoryUrl "https://github.com/<your-github-user-or-org>/japan-geo-game-qa-toolkit.git"
+.\scripts\publish_after_repo_created.ps1 -RepositoryUrl "https://github.com/eitag0128/japan-geo-game-qa-toolkit.git"
 ```
 
 8. Confirm GitHub Actions passes.

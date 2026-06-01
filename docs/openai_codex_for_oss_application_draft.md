@@ -13,7 +13,7 @@ japan-geo-game-qa-toolkit
 Repository URL after publishing:
 
 ```text
-https://github.com/<your-github-user-or-org>/japan-geo-game-qa-toolkit
+https://github.com/eitag0128/japan-geo-game-qa-toolkit
 ```
 
 ## Short Project Description
@@ -111,7 +111,7 @@ Avoid these claims unless they become true:
 
 ```text
 japan-geo-game-qa-toolkit
-https://github.com/<your-github-user-or-org>/japan-geo-game-qa-toolkit
+https://github.com/eitag0128/japan-geo-game-qa-toolkit
 ```
 
 ### What does the project do?
